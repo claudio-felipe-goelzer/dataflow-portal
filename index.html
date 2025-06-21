@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dataflow Portal</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <!-- React CDN -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <!-- AngularJS CDN for example -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <div ng-app="app" ng-controller="MainCtrl as vm">
+    <h2>{{ vm.message }}</h2>
+  </div>
+  <script src="src/js/react-app.js"></script>
+  <script src="src/js/angular-app.js"></script>
+</body>
+</html>
