@@ -1,12 +1,19 @@
 # Dataflow Portal
 
-Este repositório foi reestruturado para fornecer uma base mais profissional utilizando HTML, CSS e JavaScript com exemplos em React e AngularJS.
+Projeto exemplo de portal SaaS simples em Node.js sem dependências externas.
+Permite login de usuários e exibição de dashboards (links Power BI).
 
 ## Estrutura
 
-- `index.html` – Página inicial que referencia os exemplos em React e AngularJS.
-- `src/css/style.css` – Folha de estilos.
-- `src/js/react-app.js` – Componente React simples.
-- `src/js/angular-app.js` – Módulo AngularJS de exemplo.
-- `legacy/` – Contém as páginas HTML originais.
+- `server.js` – Servidor HTTP que controla autenticação e entrega das páginas.
+- `pages/` – Contém as páginas `login.html`, `dashboard.html` e `admin.html`.
+- `src/` – Arquivos estáticos (CSS e JavaScript).
+- `legacy/` – Páginas HTML antigas mantidas como referência.
 
+Para iniciar execute:
+
+```bash
+npm start
+```
+
+O servidor será iniciado em `http://localhost:3000`.
